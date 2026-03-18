@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const mainTitle = document.getElementById('text');
     const navratriGreetings = [
         'Happy Navratri',
-        'à¤¨à¤µà¤°à¤¾à¤¤à¥à¤°à¤¿ à¤•à¥€ à¤¶à¥à¤­à¤•à¤¾à¤®à¤¨à¤¾à¤à¤‚',
+        'नवरात्रि की शुभकामनाएं',
         'Jai Mata Di',
         'Divine Blessings',
         'Happy Navratri'
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function createSparkleEffect(element) {
     const sparkle = document.createElement('div');
-    sparkle.innerHTML = 'âœ¨';
+    sparkle.innerHTML = '✨';
     sparkle.style.position = 'absolute';
     sparkle.style.pointerEvents = 'none';
     sparkle.style.fontSize = '1.5em';
@@ -176,7 +176,7 @@ setInterval(() => {
 
 function createFloatingNote() {
     const note = document.createElement('div');
-    const notes = ['â™ª', 'â™«', 'â™¬', 'ðŸŽµ', 'ðŸŽ¶'];
+    const notes = ['♪', '♫', '♬', '🎵', '🎶'];
     note.innerHTML = notes[Math.floor(Math.random() * notes.length)];
     note.style.position = 'fixed';
     note.style.fontSize = '2em';
