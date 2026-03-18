@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Young+Serif&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Young+Serif&display=swap');
 *{
     margin:0;
     padding:0;
@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-/* Enhanced Background with Gradient */
 body{
     background: linear-gradient(135deg, #D0504D 0%, #FF6B6B 25%, #FF8E53 50%, #FF6B6B 75%, #D0504D 100%);
     background-size: 400% 400%;
@@ -90,7 +89,6 @@ section img#bottom{
     }
 }
 
-/* Diya Styling */
 .diya {
     position: absolute;
     width: 30px;
@@ -129,7 +127,6 @@ section img#bottom{
 #diya4 { top: 50%; right: 25%; animation-delay: 1.5s; }
 #diya5 { top: 80%; left: 50%; animation-delay: 2s; }
 
-/* Lotus Flower */
 .lotus {
     position: absolute;
     width: 40px;
@@ -168,7 +165,6 @@ section img#bottom{
 #lotus1 { top: 25%; left: 70%; animation-delay: 0s; }
 #lotus2 { top: 70%; right: 60%; animation-delay: 2s; }
 
-/* Dandiya Sticks */
 .dandiya-stick {
     position: absolute;
     width: 4px;
@@ -187,7 +183,6 @@ section img#bottom{
 #dandiya2 { top: 40%; left: 80%; animation-delay: 1s; }
 #dandiya3 { top: 65%; left: 15%; animation-delay: 2s; }
 
-/* Peacock Feathers */
 .peacock-feather {
     position: absolute;
     width: 20px;
@@ -217,7 +212,6 @@ section img#bottom{
 #feather1 { top: 35%; left: 5%; animation-delay: 0s; }
 #feather2 { top: 45%; right: 10%; animation-delay: 2.5s; }
 
-/* Dancing Figures */
 .dancing-figure {
     position: absolute;
     width: 50px;
@@ -261,7 +255,6 @@ section img#bottom{
 #dancer1 { top: 55%; left: 40%; animation-delay: 0s; }
 #dancer2 { top: 35%; right: 40%; animation-delay: 1s; }
 
-/* Musical Notes */
 .music-note {
     position: absolute;
     font-size: 2em;
@@ -280,7 +273,6 @@ section img#bottom{
 #note3 { top: 65%; left: 60%; animation-delay: 1.5s; }
 #note4 { top: 75%; right: 50%; animation-delay: 2.25s; }
 
-/* Rangoli Patterns */
 .rangoli {
     position: absolute;
     width: 60px;
@@ -310,7 +302,6 @@ section img#bottom{
 #rangoli1 { bottom: 20%; left: 25%; animation-delay: 0s; }
 #rangoli2 { bottom: 30%; right: 20%; animation-delay: 4s; }
 
-/* Kalash */
 .kalash {
     position: absolute;
     width: 40px;
@@ -351,7 +342,6 @@ section img#bottom{
 
 #kalash1 { bottom: 25%; left: 45%; }
 
-/* Garlands */
 .garland {
     position: absolute;
     width: 200px;
@@ -376,7 +366,6 @@ section img#bottom{
 #garland1 { top: 10%; left: 20%; animation-delay: 0s; }
 #garland2 { top: 85%; right: 15%; animation-delay: 3s; }
 
-/* Sparkles */
 .sparkle {
     position: absolute;
     font-size: 1.5em;
@@ -632,7 +621,6 @@ footer{
     50% { opacity: 1; }
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     #text { font-size: 3em; }
     .goddess-days { grid-template-columns: 1fr; }
